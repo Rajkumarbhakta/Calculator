@@ -4,4 +4,7 @@
         android:radius="6dp"
         />
     <stroke
+        android:color="@color/design_default_color_primary_dark"
+        android:width="2dp"
+        />
 </shape>

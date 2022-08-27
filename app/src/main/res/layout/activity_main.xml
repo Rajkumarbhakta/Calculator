@@ -28,7 +28,7 @@
         android:inputType="number|numberDecimal"
         android:padding="5dp"
         android:textColor="@color/white"
-        android:background="@color/gray"
+        android:background="@drawable/edit_text_background"
         android:textColorHint="@color/hintTextColour" />
 
     <EditText
@@ -43,6 +43,7 @@
         android:inputType="number|numberDecimal"
         android:padding="5dp"
         android:textColor="@color/white"
+        android:background="@drawable/edit_text_background"
         android:textColorHint="@color/hintTextColour" />
 
     <TextView
@@ -53,10 +54,12 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="40dp"
         android:hint="Ans"
-        android:padding="5dp"
+        android:padding="20dp"
         android:textColor="@color/white"
         android:textColorHint="@android:color/darker_gray"
-        android:textSize="20sp" />
+        android:background="@drawable/edit_text_background"
+        android:gravity="end"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/btPlus"
