@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="firstValue">Enter Frist Value</string>
+    <string name="secondValue">Enter Second Value</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiplication">×</string>
+    <string name="deviation">÷</string>
+</resources>
