@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ED020202"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -26,8 +26,8 @@
         android:ems="10"
         android:hint="@string/firstValue"
         android:inputType="number|numberDecimal"
-        android:padding="5dp"
-        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textColor="@color/black"
         android:background="@drawable/edit_text_background"
         android:textColorHint="@color/hintTextColour" />
 
@@ -41,8 +41,8 @@
         android:ems="10"
         android:hint="@string/secondValue"
         android:inputType="number|numberDecimal"
-        android:padding="5dp"
-        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textColor="@color/black"
         android:background="@drawable/edit_text_background"
         android:textColorHint="@color/hintTextColour" />
 
@@ -55,7 +55,7 @@
         android:layout_marginRight="40dp"
         android:hint="Ans"
         android:padding="20dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHint="@android:color/darker_gray"
         android:background="@drawable/edit_text_background"
         android:gravity="end"
@@ -68,7 +68,7 @@
         android:layout_marginLeft="90dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="90dp"
-        android:background="@color/buttonColour"
+        android:background="@drawable/btn_background"
         android:padding="7dp"
         android:text="@string/plus"
         android:textSize="20sp" />
@@ -80,7 +80,7 @@
         android:layout_marginLeft="90dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="90dp"
-        android:background="@color/buttonColour"
+        android:background="@drawable/btn_background"
         android:padding="7dp"
         android:text="@string/minus"
         android:textSize="20sp" />
@@ -92,7 +92,7 @@
         android:layout_marginLeft="90dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="90dp"
-        android:background="@color/buttonColour"
+        android:background="@drawable/btn_background"
         android:padding="7dp"
         android:text="@string/multiplication"
         android:textSize="20sp" />
@@ -104,7 +104,7 @@
         android:layout_marginLeft="90dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="90dp"
-        android:background="@color/buttonColour"
+        android:background="@drawable/btn_background"
         android:padding="7dp"
         android:text="@string/deviation"
         android:textSize="20sp" />

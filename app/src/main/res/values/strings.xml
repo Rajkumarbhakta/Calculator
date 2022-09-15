@@ -6,4 +6,6 @@
     <string name="minus">-</string>
     <string name="multiplication">×</string>
     <string name="deviation">÷</string>
+    <string name="calculator_by_rkb">Calculator By RKB</string>
+    <string name="virsionInfo">v 1.5</string>
 </resources>

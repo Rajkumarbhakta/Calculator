@@ -3,10 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/apps/Calculator/app/src/main/res/drawable/btn_background.xml" value="0.1975" />
         <entry key="..\:/apps/Calculator/app/src/main/res/drawable/edit_text_background.xml" value="0.167" />
-        <entry key="..\:/apps/Calculator/app/src/main/res/layout-land/activity_main.xml" value="0.2884259259259259" />
+        <entry key="..\:/apps/Calculator/app/src/main/res/layout-land/activity_main.xml" value="0.2" />
         <entry key="..\:/apps/Calculator/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
-        <entry key="..\:/apps/Calculator/app/src/main/res/layout/activity_spalsh.xml" value="0.25" />
+        <entry key="..\:/apps/Calculator/app/src/main/res/layout/activity_spalsh.xml" value="0.2" />
       </map>
     </option>
   </component>
