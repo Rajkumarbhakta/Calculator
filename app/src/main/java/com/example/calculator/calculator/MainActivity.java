@@ -3,8 +3,10 @@ package com.example.calculator.calculator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.google.android.material.button.MaterialButton;
@@ -16,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 MaterialButton btnAc,btnPersentage,btnDivition,btn7,btn8,btn9,btn4,btn5,btn6,btn1,btn2,btn3,btnDot,btn0,btn00,btnEqual,btnMultiply,btnMinus,btnPlus;
 MaterialButton clear;
 TextView InputTv,OutputTv;
+ImageButton aboutBtn;
 
 
     @SuppressLint("MissingInflatedId")
@@ -25,6 +28,15 @@ TextView InputTv,OutputTv;
         setContentView(R.layout.activity_main);
         InputTv=findViewById(R.id.txt_inputText);
         OutputTv=findViewById(R.id.txt_solutionText);
+        aboutBtn = findViewById(R.id.info);
+        aboutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(MainActivity.this,AboutActivity.class);
+                startActivity(i);
+                finish();
+            }
+        });
         assignId(clear,R.id.c);
         assignId(btnAc,R.id.btn_AC);
         assignId(btnPersentage,R.id.btn_persent);
@@ -71,6 +83,8 @@ TextView InputTv,OutputTv;
         }else if(buttonText.equals("=")){
             InputTv.setText(OutputTv.getText());
             return;
+        }else if(buttonText.equals("%")){
+            Toast.makeText(this, "Coming Soon..", Toast.LENGTH_SHORT).show();
         }
         else {
             dataToCalculate = dataToCalculate + buttonText;
